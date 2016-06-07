@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="phone_operator_list_array">
+        <item>فقط از شماره ای که انتخاب کردم</item>
+        <item>از همه شماره ها</item>
+    </string-array>
+    <string-array name="phone_operator_list_values">
+        <item>just</item>
+        <item>any</item>
+    </string-array>
+    <string-array name="language_list_array">
+        <item>فارسی</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="language_list_values">
+        <item>fa</item>
+        <item>en-US</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_category_profile"
+        android:title="@string/pref_category_profile_title" >
+        <EditTextPreference
+            android:inputType="number"
+            android:key="pref_key_user_number"
+            android:summary="@string/pref_key_user_number_summary"
+            android:title="@string/pref_key_user_number_title" />
+        <EditTextPreference
+            android:inputType="number"
+            android:key="pref_key_pin_code"
+            android:summary="@string/pref_key_pin_code_summary"
+            android:title="@string/pref_key_pin_code_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_category_general"
+        android:title="@string/pref_category_general_title" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_enable_app"
+            android:summary="@string/pref_key_enable_app_summary"
+            android:title="@string/pref_key_enable_app_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_enable_simcard_change"
+            android:summary="@string/pref_key_enable_simcard_change_summary"
+            android:title="@string/pref_key_enable_simcard_change_title" />
+
+        <EditTextPreference
+            android:inputType="number"
+            android:key="pref_key_backup_number"
+            android:summary="@string/pref_key_backup_number_summary"
+            android:title="@string/pref_key_backup_number_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_category_missedcall"
+        android:title="@string/pref_category_missedcall_title" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_enable_missed_call"
+            android:summary="@string/pref_key_enable_missed_call_summary"
+            android:title="@string/pref_key_enable_missed_call_title" />
+
+        <EditTextPreference
+            android:inputType="number"
+            android:key="pref_key_missed_call_number"
+            android:summary="@string/pref_key_missed_call_number_summary"
+            android:title="@string/pref_key_missed_call_number_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_category_sms"
+        android:title="@string/pref_category_sms_title" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_enable_sms"
+            android:summary="@string/pref_key_enable_sms_summary"
+            android:title="@string/pref_key_enable_sms_title" />
+
+        <ListPreference
+            android:defaultValue="just"
+            android:entries="@array/phone_operator_list_array"
+            android:entryValues="@array/phone_operator_list_values"
+            android:key="pref_key_operator_type"
+            android:summary="@string/pref_key_operator_type_summary"
+            android:title="@string/pref_key_operator_type_title" />
+
+        <EditTextPreference
+            android:inputType="number"
+            android:key="pref_key_sms_operator_number"
+            android:summary="@string/pref_key_sms_operator_number_summary"
+            android:title="@string/pref_key_sms_operator_number_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_category_detail"
+        android:title="@string/pref_category_detail_title" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_enable_location"
+            android:summary="@string/pref_key_enable_location_summary"
+            android:title="@string/pref_key_enable_location_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_enable_alert"
+            android:summary="@string/pref_key_enable_alert_summary"
+            android:title="@string/pref_key_enable_alert_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_enable_audio_profile_change"
+            android:summary="@string/pref_key_enable_audio_profile_change_summary"
+            android:title="@string/pref_key_enable_audio_profile_change_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_enable_forward_calls"
+            android:summary="@string/pref_key_enable_forward_calls_summary"
+            android:title="@string/pref_key_enable_forward_calls_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_category_help"
+        android:title="@string/pref_category_help_title" >
+        <Preference
+            android:key="pref_category_help_opener"
+            android:title="@string/pref_category_help_opener" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="find_me">منو پیدا کن</string>
+    <string name="alert_">هشدار</string>
+    <string name="trust_person">شماره دوستت یا کسی که بهش اعتماد داری.مثل 00989121234567 وارد کن</string>
+    <!-- Setting -->
+    <string name="app_name">یابو</string>
+    <string name="pref_category_profile_title">پروفایلت</string>
+    <string name="pref_key_user_number_title">شمارت</string>
+    <string name="pref_key_user_number_summary">شمارت رو اینجا وارد کن مثل 00989121234567</string>
+    <string name="pref_key_pin_code_title">پین کدت</string>
+    <string name="pref_key_pin_code_summary">اینجام پین کدت رو وارد کن ، فرستنده پیامک فقط با این کد می تونه به گوشیت دستور بده!</string>
+    <string name="pref_category_general_title">تنظیمات اصلی</string>
+    <string name="pref_key_enable_app_title">فعال شو</string>
+    <string name="pref_key_enable_app_summary">روشن یا خاموش بودن کل برنامه</string>
+    <string name="pref_key_enable_simcard_change_title">هشدار موقع تغییر سیم کارت</string>
+    <string name="pref_key_enable_simcard_change_summary">فرستادن خودکار هشدار به شماره زیر وقتی سیم کارت گوشی عوض می شه</string>
+    <string name="pref_key_backup_number_title">شماره پشتیبان</string>
+    <string name="pref_key_backup_number_summary">شماره ای که هشدار بالا بهش فرستاده می شه.مثل 00989121234567</string>
+    <string name="pref_category_missedcall_title">تنظیمات تک زنگ</string>
+    <string name="pref_key_enable_missed_call_title">فعالسازی تک زنگ</string>
+    <string name="pref_key_enable_missed_call_summary">وقتی شماره زیر بهت تک زنگ بزنه ، گوشیت با صدای بلند زنگ می خوره</string>
+    <string name="pref_key_missed_call_number_title">شماره تک زنگ</string>
+    <string name="pref_key_missed_call_number_summary">شماره تک زنگ بالا.مثل 00989121234567</string>
+    <string name="pref_category_sms_title">تنظیمات پیامک</string>
+    <string name="pref_key_enable_sms_title">فعالسازی پیامک</string>
+    <string name="pref_key_enable_sms_summary">فعال کردن همه ی ویژگی های پیامکی</string>
+    <string name="pref_key_operator_type_title">انتخاب محدودیت فرستنده پیامک</string>
+    <string name="pref_key_operator_type_summary">کسی که می تونه به گوشی دستور بده (دقت کن حتما باید پین کد رو هم بدونه)</string>
+    <string name="pref_key_sms_operator_number_title">شماره ای که اجازه داره با پیامک دستور بده</string>
+    <string name="pref_key_sms_operator_number_summary">قبول کردن پیامک از ... مثل 00989121234567</string>
+    <string name="pref_category_detail_title">تنظیمات دقیق تر</string>
+    <string name="pref_key_enable_location_title">فرستادن موقعیت</string>
+    <string name="pref_key_enable_location_summary">فرستنده پیامک می تونه با این گزینه ، موقعیت گوشی رو بفهمه</string>
+    <string name="pref_key_enable_alert_title">نمایش پیغام جلوی قفل گوشی، چشمک زدن یا زنگ زدن با صدای بلند</string>
+    <string name="pref_key_enable_alert_summary">فرستنده پیامک می تونه پیغام ارسال کنه ، یا بخواد گوشی چشمک بزنه و یا پیغامی روی صفحه نمایش بده!یا هر سه تای اینها</string>
+    <string name="pref_key_enable_audio_profile_change_title">بشه پروفایل صدای گوشیت رو عوض کرد</string>
+    <string name="pref_key_enable_audio_profile_change_summary">افرستنده پیامک می تونه پروفایل صدای گوشیت رو به اصلی ، ویبره و یا سکوت تغییر بده</string>
+    <string name="pref_key_enable_forward_calls_title">انتقال تماس</string>
+    <string name="pref_key_enable_forward_calls_summary">فرستنده می تونه از گوشی بخواد که تمام تماس ها به شماره ای خاص انتقال داده بشه</string>
+    <string name="pref_category_help_title">کمک</string>
+    <string name="pref_category_help_opener">کمکم کن</string>
+    <string name="pref_key_language_title">Language</string>
+    <string name="change_sim_message_after">khabar dahid.Sim kart avaz shode ast.</string>
+    <string name="change_sim_message_before">Lotfan be</string>
+    <string name="fill_all_parts">شما باید هر سه قسمت را پر کنید.</string>
+    <string name="fill_below">لطفا موارد زیر رو کامل کنید.</string>
+
+</resources>
